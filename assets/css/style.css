@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;}
+    header { width:100% ; height: 60px; background-color: #0a121f;}
+header nav a {text-decoration: none; color: #FFF; font-size: 16px; font-weight: 200;}
+ header {display: flex; align-items: center; justify-content: space-between;}
+header div {display: flex; align-items: center;}
+:root {--mavi-reng-: #3A68B8 }
+header div p {color: var(--mavi-reng-)}
+header button {background-color: var(--mavi-reng-); color: #FFF; height:30px; width: 70px;display:flex; align-items: center; justify-content:center; border: 0cap;}
+header button {display: none;}
+header div p {font-size:16px; }
+.logo {margin-left:10px;}
+.nav-links {display: none; color: #FFF;}
+.fa-bars {font-size: 25px; display: flex; color: #FFF;margin-right:10px;}
+.introduction {display: flex; background-color: #09101e; }
+.introduction  h1 {color: #FFF; font-size: 25px;}
+.introduction  h6 {color: var(--mavi-reng-);}
+.intro-left-side p {color:#FFF; font-size:12px;}
+.introduction button {background-color: var(--mavi-reng-); color: #FFF; border: 0cap;}
+.introduction {display: flex; flex-direction: column;}
+.intro-right-side {padding: 10px 10px;}
+.intro-left-side {padding: 10px 10px;}
+.intro-right-side img {display:flex; margin: auto; width:90%;}
+@media  (min-width:375px) and (max-width:576px) {.intro-left-side {display:block; padding: 20px 30px;} .intro-left-side .buttons :nth-child(1){margin-right:30px;} }
+    
+
+
+ @media (min-width: 768px) and (max-width: 1024px) { header button{display: flex;} 
+ 
+ header .nav-links {display:flex} 
+ header .fa-bars{display: none;} 
+ .nav-links a{margin-right: 20px;} .logo {margin-left: 20px;} 
+  button {margin-right: 20px;}
+.introduction h1{font-size: 65px;font-weight: 800;} 
+.introduction{display: flex; flex-direction:column;} 
+.intro-left-side h6 {font-weight: 400; font-size: 25px;}
+.intro-left-side p {font-size: 25px;}
+.intro-left-side button {font-size: 25px;}
+.intro-left-side {padding: 10px 20px;} }
+
+
+@media (min-width:1024px) {header .logo {padding: 20px 50px;} 
+header button{display: flex; margin-right: 50px;border: 0cap;}    
+ header .fa-bars {display: none;}
+  header .nav-links {display: flex; gap: 20px; }
+
+  .intro-right-side {width: 1000px;}
+     .introduction .intro-right-side img {padding:60px 0x 60px 0px; width:100%;} 
+     .introduction .intro-left-side {padding-left:50px; padding-top:80px;padding-bottom: 60px; display:block;} 
+     .introduction{display: flex; flex-direction: row;} 
+     .intro-left-side h1 {font-size: 50px;} 
+     .intro-left-side button {height: 30px;}
+      .intro-left-side .buttons :nth-child(1){margin-right: 30px;}
+    .intro-left-side p {font-size:18px; margin-top: 50px;margin-bottom: 50px;} 
+  .intro-left-side h6 {font-size: 18px;} }
+    
+      
