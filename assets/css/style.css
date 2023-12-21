@@ -13,16 +13,38 @@ header div p {font-size:16px; }
 .logo {margin-left:10px;}
 .nav-links {display: none; color: #FFF;}
 .fa-bars {font-size: 25px; display: flex; color: #FFF;margin-right:10px;}
-.introduction {display: flex; background-color: #09101e; }
+
+.introduction {display: flex; background-color: #09101e; flex-direction: column; }
 .introduction  h1 {color: #FFF; font-size: 25px;}
 .introduction  h6 {color: var(--mavi-reng-);}
-.intro-left-side p {color:#FFF; font-size:12px;}
+.intro-left-side p {color:#FFF; font-size:12px; margin-top: 20px; margin-bottom: 20px;}
 .introduction button {background-color: var(--mavi-reng-); color: #FFF; border: 0cap;}
-.introduction {display: flex; flex-direction: column;}
+
 .intro-right-side {padding: 10px 10px;}
 .intro-left-side {padding: 10px 10px;}
 .intro-right-side img {display:flex; margin: auto; width:90%;}
-@media  (min-width:375px) and (max-width:576px) {.intro-left-side {display:block; padding: 20px 30px;} .intro-left-side .buttons :nth-child(1){margin-right:30px;} }
+
+.information {background-color: #020a18; display: flex; flex-direction: column-reverse;}
+.information .info-right-side {padding: 10px 10px;}
+.information .info-right-side h2 {color: #FFF; font-size: 20px;}
+.information .info-right-side p {color: #FFF; font-size: 12px; margin-top: 20px; margin-bottom: 20px;}
+.information .info-right-side button {background-color: var(--mavi-reng-); color: #FFF; border: 0cap;}
+.information .info-left-side {width:300px; padding: 10px 10px;}
+.information .info-left-side img {width: 80%; margin:10px 15px;}
+
+.solutions {display: flex; flex-direction: column; background-color: #020a18;}
+.solutions h2 {color: #FFF; font-size:20px;}
+.solutions p {color: #FFF; font-size: 12px;margin-top: 20px; margin-bottom:20px;}
+.solutions .solrightside {width: 300px;padding: 10px 10px;}
+.solutions .solrightside img {width: 80%;}
+.solutions .solleftside {padding: 10px 10px;}
+
+
+@media  (min-width:375px) and (max-width:576px) 
+
+{.intro-left-side {display:block; padding: 20px 30px;} 
+.intro-left-side .buttons :nth-child(1){margin-right:30px;} 
+.information {padding: 20px 30px;}    .solutions{padding: 20px 30px;}    }
     
 
 
@@ -37,7 +59,16 @@ header div p {font-size:16px; }
 .intro-left-side h6 {font-weight: 400; font-size: 25px;}
 .intro-left-side p {font-size: 25px;}
 .intro-left-side button {font-size: 25px;}
-.intro-left-side {padding: 10px 20px;} }
+.intro-left-side {padding: 10px 20px;} 
+.information .info-right-side h2{font-size: 50px; font-weight:700;} 
+.information {padding: 10px 20px;} 
+.information .info-right-side p {font-size: 25px; margin-top: 50px; margin-bottom:50px;}
+.information .info-right-side button {font-size: 25px;} 
+.information .info-left-side {width: 760px; justify-content: center;}
+.solutions {padding:10px 20px;}
+.solutions .solleftside h2{font-size:50px; font-weight: 700;}
+.solutions .solleftside p {font-size: 25px; margin-top: 50px;margin-bottom: 20px;} 
+.solutions .solrightside {width:760px;}}
 
 
 @media (min-width:1024px) {header .logo {padding: 20px 50px;} 
@@ -49,10 +80,26 @@ header button{display: flex; margin-right: 50px;border: 0cap;}
      .introduction .intro-right-side img {padding:60px 0x 60px 0px; width:100%;} 
      .introduction .intro-left-side {padding-left:50px; padding-top:80px;padding-bottom: 60px; display:block;} 
      .introduction{display: flex; flex-direction: row;} 
-     .intro-left-side h1 {font-size: 50px;} 
+     .intro-left-side h1 {font-size: 50px; font-weight: 800;} 
      .intro-left-side button {height: 30px;}
       .intro-left-side .buttons :nth-child(1){margin-right: 30px;}
     .intro-left-side p {font-size:18px; margin-top: 50px;margin-bottom: 50px;} 
-  .intro-left-side h6 {font-size: 18px;} }
+  .intro-left-side h6 {font-size: 18px;}
+.information {display: flex; flex-direction: row;}
+ .information .info-left-side {width: 1000px;}
+ .information .info-left-side img {width: 90%;}
+ .information .info-right-side {padding: 60px;}
+.information .info-right-side h2 {font-size: 40px; font-weight: 700;}
+.information .info-right-side p {font-size:18px;margin-top: 50px; margin-bottom: 50px;}
+.information .info-right-side button {height: 30px;} 
+.solutions {display: flex; flex-direction: row;}
+.solutions .solleftside {padding: 100px 80px;}
+.solutions .solleftside h2{font-size: 40px;font-weight: 700;margin-bottom: 60px; margin-bottom: 80px;}
+.solutions .solleftside p {font-size: 18px;}
+.solutions  .solrightside { width:1200px ; justify-content: center;}
+.solutions .solrightside img {width: 100%; padding-top: 150px;}
+
+}
+
     
       
