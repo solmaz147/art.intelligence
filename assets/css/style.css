@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {--mavi-reng-: #3A68B8 }
+
+
 body {
     font-family: 'Open Sans', sans-serif;}
-    header { width:100% ; height: 60px; background-color: #0a121f;}
-header nav a {text-decoration: none; color: #FFF; font-size: 16px; font-weight: 200;}
- header {display: flex; align-items: center; justify-content: space-between;}
-header div {display: flex; align-items: center;}
-:root {--mavi-reng-: #3A68B8 }
-header div p {color: var(--mavi-reng-)}
-header button {background-color: var(--mavi-reng-); color: #FFF; height:30px; width: 70px;display:flex; align-items: center; justify-content:center; border: 0cap;}
-header button {display: none;}
-header div p {font-size:16px; }
+    header
+     { width:100% ; height: 60px; background-color: #0a121f;}
+header nav a 
+{text-decoration: none; color: #FFF; font-size: 16px; font-weight: 200;}
+ header
+  {display: flex; align-items: center; justify-content: space-between;}
+header div 
+{display: flex; align-items: center;}
+header div p 
+{color: var(--mavi-reng-)}
+header button 
+{background-color: var(--mavi-reng-); color: #FFF; height:30px; width: 70px;display:flex; align-items: center; justify-content:center; border: 0cap;}
+header button
+ {display: none;}
+header div p 
+{font-size:16px; }
 .logo {margin-left:10px;}
 .nav-links {display: none; color: #FFF;}
 .fa-bars {font-size: 25px; display: flex; color: #FFF;margin-right:10px;}
@@ -38,6 +49,18 @@ header div p {font-size:16px; }
 .solutions .solrightside {width: 300px;padding: 10px 10px;}
 .solutions .solrightside img {width: 80%;}
 .solutions .solleftside {padding: 10px 10px;}
+.awards-container {
+  background-color: #020A18;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  gap: 5px;
+  
+}
+.card {
+  background-color: #0f1724; color: #FFF;
+ }
+ .awards-container :nth-child(1) img {padding-top: 38px;}
+
 
 
 @media  (min-width:375px) and (max-width:576px) 
@@ -80,18 +103,26 @@ header button{display: flex; margin-right: 50px;border: 0cap;}
      .introduction .intro-right-side img {padding:60px 0x 60px 0px; width:100%;} 
      .introduction .intro-left-side {padding-left:50px; padding-top:80px;padding-bottom: 60px; display:block;} 
      .introduction{display: flex; flex-direction: row;} 
-     .intro-left-side h1 {font-size: 50px; font-weight: 800;} 
-     .intro-left-side button {height: 30px;}
+     .intro-left-side
+      h1 {font-size: 50px; font-weight: 800;} 
+     .intro-left-side
+      button {height: 30px;}
       .intro-left-side .buttons :nth-child(1){margin-right: 30px;}
-    .intro-left-side p {font-size:18px; margin-top: 50px;margin-bottom: 50px;} 
-  .intro-left-side h6 {font-size: 18px;}
+    .intro-left-side 
+    p {font-size:18px; margin-top: 50px;margin-bottom: 50px;} 
+  .intro-left-side 
+  h6 {font-size: 18px;}
 .information {display: flex; flex-direction: row;}
  .information .info-left-side {width: 1000px;}
- .information .info-left-side img {width: 90%;}
+ .information .info-left-side 
+ img {width: 90%;}
  .information .info-right-side {padding: 60px;}
-.information .info-right-side h2 {font-size: 40px; font-weight: 700;}
-.information .info-right-side p {font-size:18px;margin-top: 50px; margin-bottom: 50px;}
-.information .info-right-side button {height: 30px;} 
+.information .info-right-side
+ h2 {font-size: 40px; font-weight: 700;}
+.information .info-right-side 
+p {font-size:18px;margin-top: 50px; margin-bottom: 50px;}
+.information .info-right-side 
+button {height: 30px;} 
 .solutions {display: flex; flex-direction: row;}
 .solutions .solleftside {padding: 100px 80px;}
 .solutions .solleftside h2{font-size: 40px;font-weight: 700;margin-bottom: 60px; margin-bottom: 80px;}
