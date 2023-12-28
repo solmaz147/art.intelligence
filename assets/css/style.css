@@ -50,10 +50,10 @@ header div p
 .solutions .solrightside img {width: 80%;}
 .solutions .solleftside {padding: 10px 10px;}
 .awards-container {
-  background-color: #020A18;
+  background-color: #020A18; 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-  gap: 5px;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  gap: 20px
   
 }
 .card {
